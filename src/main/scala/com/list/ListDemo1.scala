@@ -24,7 +24,6 @@ object ListDemo1 {
     }
 
 
-
     var breakO=new Breaks
     breakO.breakable{
       for(i<-1 until 10){
