@@ -12,4 +12,6 @@ object FuntionDemo1{
     println(sumF(10,11))
   }
 
+  val isEven = (x: Int) => x % 2 == 0
+  val isEven1: Int => Boolean = (x) => x % 2 == 0 //if you write the return type
 }
